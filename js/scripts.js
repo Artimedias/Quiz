@@ -36,6 +36,17 @@ function winner (a, b, c)
 
 $(document).ready(function() {
 
+  $("button#gray").click(function() {
+    console.log("clicky")
+    $("body").removeClass()
+    $("body").addClass("darkMode");
+  });
+
+  $("button#white").click(function() {
+    $("body").removeClass()
+    $("body").addClass("lightMode");
+  });
+
   $("#form1").submit(function(event) {
       event.preventDefault();
       let result1 = $("input:radio[name=question1]:checked").val();
@@ -69,6 +80,14 @@ $(document).ready(function() {
       pythonValue = parseInt(tracker.charAt(1));
       cPlusPlusValue = parseInt(tracker.charAt(2));
       $(".final").text(winner (cSharpValue, pythonValue, cPlusPlusValue));
-      $("#output").show();
+      $("#output").toggle();
+      $("#output2").toggle();
+  });
+
+  $("#form2").submit(function(event) {
+        event.preventDefault();
+        tracker = 000;
+        $("#output").toggle();
+        $("#outputq").toggle();
   });
 });

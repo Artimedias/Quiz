@@ -1,3 +1,17 @@
 #output {
     display: none;
 }
+
+#output2 {
+    display: none;
+}
+
+.darkMode {
+ background-color:gray;
+ color:white;  
+}
+
+.lightMode {
+    background-color:white;
+    color:black;
+}
