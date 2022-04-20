@@ -1,18 +1,26 @@
-Application Name: Quiz.html
+###Application Name: 
+Quiz.html
 
-Name of Contributor: Brett Roper.
+###Name of Contributor: 
+Brett Roper.
 
-Description of Application: A webpage with a series of nonsense questions designed to tell the user what programming language they should learn.
+###Description of Application: 
+A webpage with a series of nonsense questions designed to tell the user what programming language they should learn.
 
-Link to github repository: https://github.com/Artimedias/Quiz
+###Link to github repository: 
+[Here](https://github.com/Artimedias/Quiz)
 
-Technologies Used: VSCode, jQuery, Bootstrap, Gitbash.
+###Technologies Used: 
+VSCode, jQuery, Bootstrap, Gitbash.
 
-Setup/Installation: Clone this repository to wherever you wish, then open Quiz.html in your preferred web browser
+###Setup/Installation: 
+Clone this repository to wherever you wish, then open Quiz.html in your preferred web browser
 
-Known Bugs: None
+###Known Bugs: 
+None
 
-License: Copyright 2022 Brett Roper
+###License: 
+Copyright 2022 Brett Roper
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
